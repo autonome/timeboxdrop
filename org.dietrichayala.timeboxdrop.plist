@@ -1,0 +1,27 @@
+?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>org.dietrichayala.timeboxdrop</string>
+
+    <key>OnDemand</key>
+    <false/>
+
+    <key>UserName</key>
+    <string>anAppropriateUser</string>
+
+    <key>GroupName</key>
+    <string>anAppropriateGroup</string>
+
+    <key>ProgramArguments</key>
+    <array>
+            <string>/Applications/MongoDB/bin/mongod</string>
+            <string>--dbpath</string>
+            <string>/usr/local/mongo/data</string>
+            <string>--fork</string>
+            <string>--logpath</string>
+            <string>/usr/local/mongo/log</string>
+    </array>
+</dict>
+</plist>

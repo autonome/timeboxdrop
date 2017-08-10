@@ -1,0 +1,22 @@
+{
+  "name": "timeboxdrop",
+  "version": "1.0.0",
+  "description": "Make Dropbox use less CPU on Mac OS X",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autonome/timeboxdrop.git"
+  },
+  "keywords": [
+    "Dropbox"
+  ],
+  "author": "Dietrich Ayala <autonome@gmail.com> (http://metafluff.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/autonome/timeboxdrop/issues"
+  },
+  "homepage": "https://github.com/autonome/timeboxdrop#readme"
+}
